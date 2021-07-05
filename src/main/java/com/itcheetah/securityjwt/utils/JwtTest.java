@@ -12,9 +12,9 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
  */
 public class JwtTest {
 
-    private String privateKey = "C:/Users/20102273/Desktop/jwt/id_key_rsa";
+    private String privateKey = "C:/Users/Desktop/jwt/id_key_rsa";
 
-    private String publicKey = "C:/Users/20102273/Desktop/jwt/id_key_rsa.pub";
+    private String publicKey = "C:/Users/Desktop/jwt/id_key_rsa.pub";
 
     @Test
     public void test1() throws Exception{
